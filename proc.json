@@ -1,0 +1,12 @@
+{
+    "apps": [{
+        "name": "noders",
+        "script": "./server.js",
+        "log_date_format": "YYYY-MM-DD HH:mm Z",
+        "watch": true,
+        "env": {
+            "NODE_ENV": "production"
+        }
+    }]
+}
+

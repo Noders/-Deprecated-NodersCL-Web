@@ -1,0 +1,198 @@
+<div data-ng-controller="HomeController">
+    <!-- Our Work Section -->
+    <div id="work" class="page">
+        <div class="container">
+            <!-- Title Page -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="title-page">
+                        <h2 class="title">Cursos Gratuitos</h2>
+                        <h3 class="title-description">Desde el 6 de Abril en las oficinas de <a href="http://ifchile.com">Ideas Factory</a>.</h3>
+                        <h2 class="title"><small> Ya somos <b> {{inscritos}} </b> Noders inscritos</small></h2>
+                    </div>
+                </div>
+            </div>
+            <!-- End Title Page -->
+            <div class="row courses row-centered ">
+                <div class="col-sm-6 col-xs-10 col-lg-5 col-full-height col-top course text_align_center col-centered" in-view="addFadeInLeftBig">
+                    <h2 class="title">Introducción a Nodejs <small> Semanalmente, todos los Lunes desde el 6 de Abril </small> </h2>
+                    <img class="logo" src="lib/img/nodejslogo.svg" alt="loopback logo">
+                    <p class="description">
+                        Curso de Node.js, usando el framework Express para la creación de paginas y aplicaciones web.
+                    </p>
+                    <p class="description">
+                        Pasando por require, NPM, Mongoose, lodash y lógica de aplicacion, hasta la creación de un prototipo de aplicación.
+                    </p>
+                    <a class="btn btn-default pushme" href="https://welcu.com/noderscl/noderscl-introduccion-a-nodejs" type="button"><i class="fa fa-fw fa-envelope animated infinite pulse-bigger"></i> Inscríbete a "Introducción a NodeJS" </a>
+                </div>
+                <div class="col-sm-6 col-xs-10 col-lg-5 col-full-height col-top course text_align_center col-centered" in-view="addFadeInRightBig">
+                    <h2 class="title">Backends con LoopBack <small> Semanalmente, todos los Miércoles desde el 8 de Abril </small>  </h2>
+                    <img class="logo square" src="lib/img/loopback.svg" alt="loopback logo">
+                    <p class="description"> Crea backends y APIs de manera fácil con <a href="http://loopback.io">loopback.</a> </p>
+                    <p class="description">Creado por los chicos de <a href="http://strongloop.com">StrongLoop</a>, Loopback es un potente framework para crear <b>APIs</b> y que se conecta de manera fácil a tus datos. </p>
+                    <a class="btn btn-default pushme" href="https://welcu.com/noderscl/noderscl-backends-y-apis-con-loopback-clase-1" type="button"><i class="fa fa-fw fa-envelope animated infinite pulse-bigger"></i> Inscríbete a "Backends con LoopBack" </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Our Work Section -->
+    <!-- About Section -->
+    <div id="about" class="page-alternate">
+        <div class="container">
+            <!-- Title Page -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="title-page">
+                        <h2 class="title">Nuestros partners</h2>
+                        <h3 class="title-description">Compañías, partners, y amigos</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- End Title Page -->
+            <!-- People -->
+            <div class="row">
+                <!-- Start Profile -->
+                <div class="col-md-3 col-sm-3 profile">
+                    <div class="image-wrap">
+                        <div class="hover-wrap">
+                            <span class="overlay-img"></span>
+                            <span class="overlay-text-thumb">The Hosts</span>
+                        </div>
+                        <img src="lib/img/if_logo.png" alt="IF / Ideas Factory">
+                    </div>
+                    <h3 class="profile-name">IF / Ideas Factory</h3>
+                    <p class="profile-description">La nueva forma de hacer empresas. Una fábrica de ideas y un modelo único en Chile. El puente entre los emprendedores y las empresas. <a href="http://ifchile.com/">IF / Ideas Factory</a> </p>
+                    <div class="social">
+                        <ul class="social-icons">
+                            <li><a href="https://twitter.com/iF_ideasfactory#"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li><a href="http://ifchile.com"><i class="fa fa-fw fa-globe"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/iftodosjuntos"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Profile -->
+                <!-- Start Profile -->
+                <div class="col-md-3 col-sm-3 profile">
+                    <div class="image-wrap">
+                        <div class="hover-wrap">
+                            <span class="overlay-img"></span>
+                            <span class="overlay-text-thumb">The Partners</span>
+                        </div>
+                        <img src="lib/img/StrongLoop_logo_square.png" alt="StrongLoop">
+                    </div>
+                    <h3 class="profile-name">StrongLoop</h3>
+                    <p class="profile-description"> <a href="http://strongloop.com/"> StrongLoop </a> es uno de los mayores contribuyentes al proyecto Node.js. Su plataforma permite crear visualmente APIs REST en node, y conectarlas a tu DATA de manera fácil y rápida </p>
+                    <div class="social">
+                        <ul class="social-icons">
+                            <li><a href="https://twitter.com/StrongLoop"><i class="fa fa-fw fa-twitter"></i></a>
+                                <li><a href="http://strongloop.com/"><i class="fa fa-fw fa-globe"></i></a>
+                                    <li><a href="https://www.facebook.com/strongloop"><i class="fa fa-fw fa-facebook"></i></a>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Profile -->
+                <!-- Start Profile -->
+                <div class="col-md-3 col-sm-3 profile">
+                    <div class="image-wrap">
+                        <div class="hover-wrap">
+                            <span class="overlay-img"></span>
+                            <span class="overlay-text-thumb">The Company</span>
+                        </div>
+                        <img src="lib/img/logotipo-fondogris.png" alt="NoiseGrasp">
+                    </div>
+                    <h3 class="profile-name">NoiseGrasp</h3>
+                    <p class="profile-description"><a href="https://www.noisegrasp.com">NoiseGrasp</a>, utiliza Node.js en su plataforma, y mediante algoritmos de predicción, atribución y optimización ayuda a las empresas a tomar mejores decisiones de marketing.</p>
+                    <div class="social">
+                        <ul class="social-icons">
+                            <li><a href="https://www.linkedin.com/company/noisegrasp"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="https://www.noisegrasp.com"><i class="fa fa-fw fa-globe"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/NoiseGrasp"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Profile -->
+                <!-- Start Profile -->
+                <div class="col-md-3 col-sm-3 profile">
+                    <div class="image-wrap">
+                        <div class="hover-wrap">
+                            <span class="overlay-img"></span>
+                            <span class="overlay-text-thumb">The Partners</span>
+                        </div>
+                        <img src="lib/img/google developers group.png" alt="Google Developers Group Santiago">
+                    </div>
+                    <h3 class="profile-name">Google Developers Group Santiago</h3>
+                    <p class="profile-description">
+
+                     Los <a href="https://plus.google.com/u/0/109569816949405711435/posts/cWjwtZWNS2f"> Google Developer Groups (GDG) </a> son grupos diseñados para cualquiera que esté interesado en la tecnología para desarrolladores de Google; Android, App Engine, AngularJS y las distintas APIs de Google.
+
+
+
+                    </p>
+                    <div class="social">
+                        <ul class="social-icons">
+                            <li><a href="https://www.youtube.com/channel/UCNOHalDoNozHsmKs-Sale6g"><i class="fa fa-fw fa-youtube"></i></a>
+                            </li>
+                            <li><a href="http://www.meetup.com/gdg-chile/"><i class="fa fa-fw fa-calendar"></i></a>
+                            </li>
+                            <li><a href="https://plus.google.com/u/0/109569816949405711435/posts"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Profile -->
+            </div>
+            <!-- End People -->
+        </div>
+    </div>
+    <!-- End About Section -->
+    <!-- Contact Section -->
+    <div id="contact" class="page">
+        <div class="container">
+            <!-- Title Page -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="title-page">
+                        <h2 class="title">Contactános</h2>
+                        <h3 class="title-description">Nos gusta conversar! Twitter, Facebook, Github, Mail? </h3>
+                        <h3 class="oldshcoolhidden"><small>¿MSN-Messenger? ¿ICQ?</small></h3>
+                    </div>
+                </div>
+            </div>
+            <!-- End Title Page -->
+            <div id="social-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <nav id="social">
+                                <ul>
+                                    <li><a href="https://twitter.com/NodersCL" title="Siguenos en Twitter" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/NodersCL" title="Siguenos en Facebook" target="_blank"><i class="fa fa-fw fa-facebook"></i></span></a>
+                                    </li>
+                                    <li><a href="https://www.github.com/NodersCL" title="Siguenos en Github" target="_blank"><i class="fa fa-fw fa-github"></i></span></a>
+                                    </li>
+                                    <li><a href="mailto:felipe.torressepulveda@gmail.com" title="Envianos un correo" target="_blank"><i class="fa fa-fw fa-envelope-o"></i></span></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="row row-same-height row-centered">
+                <ui-gmap-google-map class="col-xs-12 map col-xs-height col-middle center-text col-centered" center="map.center" zoom="map.zoom" draggable="true" options="map.options" control="map.control">
+                    <ui-gmap-marker coords="marker.coords" options="marker.options" events="marker.events" idkey="marker.id">
+                    </ui-gmap-marker>
+                </ui-gmap-google-map>
+            </div>
+            <!-- End Contact Form -->
+        </div>
+    </div>
+</div>
